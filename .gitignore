@@ -1,0 +1,17 @@
+#this will ignore all the files in the build directory
+build/
+
+#ignore all the .log files
+*.log 
+
+#ignore all the .env
+
+*.env
+
+#ignore the c_cpp_properties.json
+
+c_cpp_properties.json
+
+#ignore the entire .vscode directory
+
+.vscode/
