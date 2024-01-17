@@ -18,5 +18,5 @@ public:
 
 private:
     std::list<JobOffer*> jobOffersProposed;
-    CompanyProfile* companyProfile;
+    CompanyProfil* companyProfile;
 };

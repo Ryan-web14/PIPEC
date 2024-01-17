@@ -7,8 +7,8 @@ enum Status { inWaiting, accepted, denied };
 
 class JobApplication {
 public:
-    Application(int id, Candidate* candidate, JobOffer* jobOffer, Status status);
-    ~Application();
+    JobApplication(int id, Candidate* candidate, JobOffer* jobOffer, Status status);
+    ~JobApplication();
 
     void submit();
     void withdraw();

@@ -23,6 +23,6 @@ void Employer::viewApplications(JobOffer* jobOffer) {
     std::cout << "Viewed job applications for a specific offer." << std::endl;
 }
 
-void Employer::searchForCandidate(Preference* preference) {
+// void Employer::searchForCandidate(Preference* preference) {
    
-}
+// }
