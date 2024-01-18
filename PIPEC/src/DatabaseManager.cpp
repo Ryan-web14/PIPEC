@@ -29,3 +29,15 @@ void DatabaseManager::connectToDatabase(){
         }
     }
 }
+
+
+std::unique_ptr<sql::Statement> DatabaseManager::statement()
+{
+    return std::unique_ptr<sql::Statement>(co->createStatement());
+}
+
+std::unique_ptr<sql::PreparedStatement> DatabaseManager::preparedStatement(const std::string query)
+{
+    return std::unique_ptr<sql::PreparedStatement>(co->prepareStatement(query));
+}
+

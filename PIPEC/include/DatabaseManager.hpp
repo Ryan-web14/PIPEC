@@ -31,6 +31,8 @@ DatabaseManager();
 //méthodes pour la classe DatabaseManager
 std::unique_ptr<sql::PreparedStatement> preparedStatement(const std::string query);
 void connectToDatabase();
+std::unique_ptr<sql::Statement> statement();
+
 
 private:
 sql::Driver* driver;
