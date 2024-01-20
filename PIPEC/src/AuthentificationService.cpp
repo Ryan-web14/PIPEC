@@ -1,4 +1,5 @@
 #include "AuthentificationService.hpp"
+#include "UniqueCodeGenerator.hpp"
 #include  <algorithm>
 #include <sstream>
 
@@ -10,15 +11,15 @@ bool AuthentificationService::verifyPassword( const std::string& password, const
 }
 
 
-bool AuthentificationService::registerUSer(const std::string& firstname,const std::string& lastname,const std::string& email, const std::string& password, UserType type)
-{
+// bool AuthentificationService::registerUSer(const std::string& firstname,const std::string& lastname,const std::string& email, const std::string& password, UserType type)
+// {
     
 
-try{
-    if(type == candidateType)
-   auto pstmt = db.preparedStatement("INSERT INTO Candidate()");
-}catch(sql::SQLException& e){
+// try{
+//     if(type == candidateType)
+//    auto pstmt = db.preparedStatement("INSERT INTO Candidate()");
+// }catch(sql::SQLException& e){
     
-}
+// }
    
-}
+// }
