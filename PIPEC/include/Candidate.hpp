@@ -21,7 +21,7 @@ public:
 private:
     std::string CV;
     std::string candidateDescription;
-    std::list<Application> applicationHistory;
+    //std::list<Application> applicationHistory;
     Preference* searchPreference;
     UserType userType{UserType::candidate};
 };
